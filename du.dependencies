@@ -8,7 +8,7 @@
   {
     "remote":       "du",
     "repository":   "device_htc_msm8960-common",
-    "target_path":  "device/htc/msm8960",
+    "target_path":  "device/htc/msm8960-common",
     "revision":     "du44"
   },
   {
