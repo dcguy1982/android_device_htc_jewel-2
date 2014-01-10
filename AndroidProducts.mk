@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_jewel.mk
+    $(LOCAL_DIR)/du.mk
