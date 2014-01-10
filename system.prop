@@ -45,3 +45,9 @@ persist.timed.enable=true
 
 # UMS
 persist.sys.usb.config=mass_storage,adb
+
+# For settings hardware info
+ro.device.front_cam=1.3 MP
+ro.device.rear_cam=8 MP
+ro.device.gpu=Adreno 225
+ro.device.screen_res=720 x 1280 pixels
