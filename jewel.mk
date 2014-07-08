@@ -86,7 +86,12 @@ PRODUCT_PACKAGES += \
 
 # Torch
 PRODUCT_PACKAGES += \
-    OmniTorch
+    OmniTorch \
+    com.android.future.usb.accessory
+
+#Default USB Mount
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
 
 # Permissions
 PRODUCT_COPY_FILES += \
