@@ -1,14 +1,14 @@
-$(call inherit-product, vendor/du/config/cdma.mk)
+$(call inherit-product, vendor/carbon/config/cdma.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/du/config/common.mk)
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/jewel/jewel.mk)
 
 # Device naming
 PRODUCT_DEVICE := jewel
-PRODUCT_NAME := du_jewel
+PRODUCT_NAME := carbon_jewel
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := EVO
 PRODUCT_MANUFACTURER := HTC
@@ -23,4 +23,4 @@ PRODUCT_RELEASE_NAME := jewel
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
--include vendor/du/config/common_versions.mk
+-include vendor/carbon/config/common_versions.mk
