@@ -1,25 +1,25 @@
 [
   {
-    "remote":       "du",
-    "repository":   "android_device_htc_s4-common",
+    "remote":       "gh",
+    "repository":   "DirtyUnicorns-KitKat/android_device_htc_s4-common",
     "target_path":  "device/htc/s4-common",
     "revision":     "du44"
   },
   {
-    "remote":       "du",
-    "repository":   "device_htc_msm8960-common",
+    "remote":       "gh",
+    "repository":   "DirtyUnicorns-KitKat/device_htc_msm8960-common",
     "target_path":  "device/htc/msm8960-common",
     "revision":     "du44"
   },
   {
-    "remote":       "du",
-    "repository":   "android_kernel_htc_msm8960",
+    "remote":       "gh",
+    "repository":   "DirtyUnicorns-KitKat/android_kernel_htc_msm8960",
     "target_path":  "kernel/htc/msm8960",
     "revision":     "du44"
   },
   {
-    "remote":       "du",
-    "repository":   "android_vendor_htc",
+    "remote":       "gh",
+    "repository":   "DirtyUnicorns-KitKat/android_vendor_htc",
     "target_path":  "vendor/htc",
     "revision":     "du44"
   }
